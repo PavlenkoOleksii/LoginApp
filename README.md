@@ -1,4 +1,4 @@
-# Test application
+# Login app with validation
 AngularJS on the front-end and Node.js on the back-end. 
 Back-end part written with TypeScritpt
 Database imitation with JSON. 
