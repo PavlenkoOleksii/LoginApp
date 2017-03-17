@@ -1,0 +1,17 @@
+<div style="float: right; cursor: pointer; color: blue; text-decoration: underline" ng-click="logOut()">
+    LogOut
+</div>
+<form name="addElementForm">
+    <input name="FirstName" placeholder="FirstName" type="text" ng-model="addRow.firstName" ng-required="required"/>
+    <input name="LastName" placeholder="LastName" type="text" ng-model="addRow.lastName" ng-required="required"/>
+    <input name="Position" placeholder="Position" type="text" ng-model="addRow.position" ng-required="required"/>
+    <div>
+        <button ng-click="!addElementForm.$invalid && addRowToTable(addRow)" >Add</button>
+        <button ng-mouseenter="required=false" ng-mouseleave="required=true" ng-click="filterRowToTable(addRow)">
+            Filter
+        </button>
+
+    </div>
+</form>
+<div id="grid" ui-grid="gridOptions" ui-grid-edit ui-grid-selection class="grid"></div>
+<button type="button" class="btn btn-success" ng-click="deleteSelected()">Delete Selected</button>

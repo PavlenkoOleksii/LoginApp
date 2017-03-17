@@ -1,0 +1,19 @@
+{
+  "tableData": [
+    {
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
+      "position": "director"
+    },
+    {
+      "firstName": "Petro",
+      "lastName": "Petrov",
+      "position": "manager"
+    },
+    {
+      "firstName": "Ivan",
+      "lastName": "Petrov",
+      "position": "developer"
+    }
+  ]
+}

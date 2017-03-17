@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "test",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.0.0",
+    "promise": "^7.1.1",
+    "string-template": "^1.0.0",
+    "winston": "^2.2.0"
+  }
+}
